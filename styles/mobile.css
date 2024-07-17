@@ -1,0 +1,41 @@
+@media screen and (max-width:576px) {
+
+    /*======================
+        MULTIPLE USE CSS
+    =======================*/
+
+    .nav-bar{
+        padding: 0 2rem;
+    }
+
+
+
+
+
+
+
+
+
+    /*===============
+        MAIN CSS
+    ================*/
+
+    /* ------------------------------ Header ------------------------------ */
+
+    /* nav-bar area */
+
+    .nav-bar{
+        padding: 3.25rem 1.5rem;
+    }
+
+    .nav-bar ul li{
+        display: none;
+        padding: 0;
+    }
+    .nav-bar ul{
+        border:none;
+    }
+    .nav-bar ul li:nth-child(5){
+        display: block;
+    }
+}

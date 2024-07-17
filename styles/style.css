@@ -1,0 +1,109 @@
+/*=================
+    COMMON CSS
+==================*/
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* font-family: "Dancing Script", cursive; */
+
+:root{
+    --highlight:rgb(230, 83, 60);
+    --background1:rgb(17, 17, 17);
+    --background2:rgba(119, 119, 119, 0);
+    --background3:rgb(185, 185, 185);
+    --background4:rgb(34, 34, 34);
+    --background5:rgba(255, 255, 255, 0.1);
+    --white:rgb(255,255,255);
+    --font:rgba(255, 255, 255, 0.5);
+}
+
+
+/*======================
+    MULTIPLE USE CSS
+=======================*/
+
+.width{
+    max-width: 1250px;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--font);
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*===============
+    MAIN CSS
+================*/
+
+/* ------------------------------ Header ------------------------------ */
+
+/* nav-bar area */
+
+header{
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+
+.nav-bar{
+    padding: 3.25rem 0;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar h1{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--highlight);
+}
+.nav-bar ul{
+    column-gap: 60px;
+    padding: 4px;
+    border: 1px solid var(--background5);
+    border-radius: 40px;
+}
+.nav-bar ul li{
+    list-style: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition:0.8s ;
+}
+.nav-bar ul li:nth-child(1){
+    background-color: var(--highlight);
+    border: none;
+    border-radius: 40px;
+}
+.nav-bar ul li a{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--white);
+}
+.nav-bar ul li:nth-child(5){
+    display: none;
+}
+

@@ -1,0 +1,31 @@
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /*======================
+        MULTIPLE USE CSS
+    =======================*/
+
+
+
+
+
+
+
+
+
+
+    /*===============
+        MAIN CSS
+    ================*/
+
+    /* ------------------------------ Header ------------------------------ */
+
+    /* nav-bar area */
+
+    .nav-bar ul{
+        column-gap: 10px;
+    }
+    .nav-bar{
+        padding: 3.25rem 1.5rem;
+    }
+    
+}
