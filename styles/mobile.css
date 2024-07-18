@@ -24,15 +24,10 @@
     .btn{
         padding: 16px 20px;
     }
-
+    
     .card-habit{
         grid-template-columns: 1fr;
     }
-
-
-
-
-
 
 
 
@@ -47,7 +42,6 @@
     .nav-bar{
         padding: 3.25rem 1.5rem;
     }
-
     .nav-bar ul li{
         display: none;
         padding: 0;
@@ -75,7 +69,6 @@
         bottom: 40%;
         left: -10%;
     }
-
 
 
     /* ------------------------------ Main ------------------------------ */
@@ -148,7 +141,6 @@
     }
 
 
-
     /* ------------------------------ footer ------------------------------ */
 
     .footer{
@@ -158,6 +150,9 @@
     }
     .footer div{
         padding: 2rem 0;
+    }
+    .copyright{
+        margin: 0 1rem;
     }
 
 }
