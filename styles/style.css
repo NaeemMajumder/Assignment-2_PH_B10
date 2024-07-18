@@ -43,7 +43,7 @@ p{
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--font);
-    line-height: 1.5;
+    line-height: 2;
 }
 
 h2{
@@ -536,6 +536,73 @@ table td{
     background-image: url("../images/trainer6.png");
     background-size: cover;
     background-position: center;
+}
+
+
+/* Subscription section (Challenge) */
+
+.subscription{
+    margin-bottom: 100px;
+}
+
+.subscription h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.subscription>p{
+    text-align: center;
+    width: 60%;
+    margin-bottom:4rem;
+}
+.cart{
+    justify-content: space-around;
+    gap: 30px;
+}
+.cart-1,.cart-2{
+    padding: 4rem 3rem;
+    border:2px solid white;
+    border-radius: 16px;
+}
+.cart-1{
+    opacity: 0.6;
+}
+.cart-2{
+    background-color: var(--background5);
+}
+.cart-1 h3,.cart-2 h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cart-1 h2 span,.cart-2 h2 span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.cart-1 p,.cart-2 p{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cart-1 ul,.cart-2 ul{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.cart-1 ul li,.cart-2 ul li{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--font);
+}
+.cart-1 ul li i ,.cart-2 ul li i{
+    margin-right: 20px;
+}
+.order{
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 4rem;
 }
 
 

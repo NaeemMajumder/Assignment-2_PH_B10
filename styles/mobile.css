@@ -4,18 +4,20 @@
         MULTIPLE USE CSS
     =======================*/
 
-    .nav-bar,.hero-area,.habit,.training,.team,.footer{
+    .nav-bar,.hero-area,.habit,.training,.team,.footer,.subscription{
         padding: 0 2rem;
     }
 
     .hero-area-content>h1,
     .run-content,
-    .run-content p{
+    .run-content p,
+    .subscription>p{
         width: 100%;
     }
 
     .hero-area,
-    .run,.BMI-info{
+    .run,.BMI-info,
+    .cart{
         flex-direction: column;
     }
 
@@ -134,6 +136,16 @@
         padding: 20px;
     }
 
+
+    /* Subscription section (Challenge) */
+
+    .cart{
+        gap: 40px;
+    }
+    .cart-1,.cart-2{
+        padding: 2rem 2rem;
+
+    }
 
 
 
