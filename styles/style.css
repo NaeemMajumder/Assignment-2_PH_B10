@@ -6,10 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
 }
-
-/* font-family: "Dancing Script", cursive; */
 
 :root{
     --highlight:rgb(230, 83, 60);
@@ -22,6 +19,9 @@
     --font:rgba(255, 255, 255, 0.5);
 }
 
+body{
+    font-family: "Inter", sans-serif;
+}
 
 /*======================
     MULTIPLE USE CSS
@@ -56,6 +56,20 @@ a{
     text-decoration: none;
 }
 
+.btn{
+    padding: 16px 40px;
+    background-color: var(--highlight);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn a{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
 
 
 /*===============
@@ -67,12 +81,11 @@ a{
 /* nav-bar area */
 
 header{
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgb(40, 40, 40) ,rgb(17, 17, 17));
 }
 
 .nav-bar{
     padding: 3.25rem 0;
-    background-color: black;
     justify-content: space-between;
     align-items: center;
 }
@@ -107,3 +120,85 @@ header{
     display: none;
 }
 
+
+
+/* hero-area section */
+
+.hero-area{
+    justify-content: space-around;
+    align-items: center;
+    gap: 5.5rem;
+}
+.hero-area-content>h1{
+    width: 70%;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 1.75rem;
+    color: var(--white);
+}
+.hero-area-content>h1>span{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400s;
+}
+.hero-area-content>p{
+    width: 60%;
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+}
+.club{
+    margin-right: 16px;
+}
+.download{
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+
+.hero-area-image{
+    position: relative;
+}
+.div1,.div2{
+    position: absolute;
+    padding: 15px 24px;
+    background-color: var(--background5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.div1>h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--white);
+}
+.div1{
+    top:20%;
+    right: -20%;
+    transition-duration: 1s;
+}
+.div2{
+    align-items: center;
+    column-gap: 20px;
+    bottom: 15%;
+    left: -25%;
+}
+.div2 i{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    background-color: var(--white);
+    border-radius: 50%;
+    border: none;
+}
+.div2 div h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 5px;
+}
+@media screen and (max-width:1400px) {
+    .div1{
+        top:20%;
+        right: 0;
+    }
+}

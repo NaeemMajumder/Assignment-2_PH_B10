@@ -4,7 +4,21 @@
         MULTIPLE USE CSS
     =======================*/
 
+    .nav-bar,.hero-area{
+        padding: 0 2rem;
+    }
 
+    .hero-area-content>h1{
+        width: 100%;
+    }
+
+    .hero-area{
+        flex-direction: column;
+    }
+
+    .btn{
+        padding: 16px 20px;
+    }
 
 
 
@@ -27,5 +41,12 @@
     .nav-bar{
         padding: 3.25rem 1.5rem;
     }
+
+    /* hero-area section */
+
+    .hero-area-content>p{
+        width: 75%;
+    }
+
     
 }
