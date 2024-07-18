@@ -4,7 +4,7 @@
         MULTIPLE USE CSS
     =======================*/
 
-    .nav-bar,.hero-area{
+    .nav-bar,.hero-area,.training,.team,.footer{
         padding: 0 2rem;
     }
 
@@ -12,7 +12,7 @@
         width: 100%;
     }
 
-    .hero-area{
+    .hero-area,.BMI-info{
         flex-direction: column;
     }
 
@@ -48,5 +48,74 @@
         width: 75%;
     }
 
+    .div1{
+        top:10%;
+        right: -10%;
+    }
+
     
+    /* ------------------------------ Main ------------------------------ */
+
+    /* habit section */
+
+    .card-habit{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    /* Run section */
+
+    .run{
+        row-gap: 40px;
+        margin: 0 2rem 100px 2rem;
+    }
+    .join{
+        width: 90%;
+    }
+    .run-content p{
+        width: 100%;
+    }
+
+    /* Training section */
+
+
+    /* BMI section */
+
+    .BMI-info{
+        padding: 3rem 2rem;
+    }
+    .BMI-info> div h3, .BMI-form p{
+        text-align: center;
+    }
+    .BMI-chart table{
+        margin: 0 auto;
+    }
+    .calculate{
+        padding: 16px 60px;
+    }
+
+    /* Team section */
+
+
+
+    /* ------------------------------ footer ------------------------------ */
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:0.5fr 1fr;
+        gap: 0;
+    }
+    .footer .logo{
+        grid-column: 1/3;
+    }
+    .footer div{
+        padding: 2rem 0;
+    }
+    .links-1,.links-2{
+        padding-bottom: 3rem !important;
+    }
+    .copyright{
+        margin: 0 2rem;
+    }
 }
